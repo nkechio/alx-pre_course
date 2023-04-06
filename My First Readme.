@@ -1,0 +1,10 @@
+echo "# alx-pre_course" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nkechio/alx-pre_course.git
+git push -u origin main
+
+root@896cf839cf9a:/alx-pre_course# git config --global user.email "nkechiokolie0@gmail.com"
+root@896cf839cf9a:/alx-pre_course# git config --global user.name "nkechi0"
